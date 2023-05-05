@@ -15,5 +15,9 @@ Follow [Anil Chandra Naidu Matcha](https://twitter.com/matchaman11) & [Ankur Sin
 ### Demo link
 https://thesamur.ai/
 
+### How to develop a plugin ?
+
+https://platform.openai.com/docs/plugins/introduction
+
 ### Support
 Join our discord https://discord.gg/A6EzvsKX4u to get support
