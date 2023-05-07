@@ -8,7 +8,11 @@ ChatGPT-Developer-Plugins allows you to run existing ChatGPT plugins and test an
 
 ### Getting Started
 
-Code will be up soon, ⭐ (Star) the repo meanwhile to receive updates
+Code is up, ⭐ (Star) the repo meanwhile to receive updates
+
+memeapp folder has sample code for a plugin which gives data of memes
+
+main.py has code to run the plugin using Langchain
 
 Follow [Anil Chandra Naidu Matcha](https://twitter.com/matchaman11) & [Ankur Singh](https://twitter.com/ankur_maker) on twitter for updates
 
