@@ -1,0 +1,12 @@
+openapi: 3.0.1
+info:
+  title: Get Meme Plugin
+  description: A plugin that allows the user to get memes list.
+  version: 'v1'
+servers:
+  - url: https://0d86-103-227-97-4.ngrok-free.app
+paths:
+  /get_memes:
+    get:
+      operationId: getMemes
+      summary: Get a list of memes

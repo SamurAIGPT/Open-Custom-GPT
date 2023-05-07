@@ -1,0 +1,19 @@
+{
+    "schema_version": "v1",
+    "name_for_human": "Get Meme Plugin",
+    "name_for_model": "getmeme",
+    "description_for_human": "A plugin that allows the user to get memes list.",
+    "description_for_model": "A plugin that allows the user to get memes list.",
+    "auth": {
+      "type": "none"
+    },
+    "api": {
+      "type": "openapi",
+      "url": "https://0d86-103-227-97-4.ngrok-free.app/openapi.yaml",
+      "is_user_authenticated": false
+    },
+    "logo_url": "https://0d86-103-227-97-4.ngrok-free.app/logo.png",
+    "contact_email": "legal@example.com",
+    "legal_info_url": "http://example.com/legal"
+  }
+  
