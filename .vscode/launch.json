@@ -11,5 +11,11 @@
 			"isMultiSession": true,
 			"enableTableSync": true
 		}
-	]
+	],
+	"lastPrograms": [
+		{
+			"label": "AdvPi"
+		}
+	],
+	"lastProgramExecuted": "AdvPi"
 }
