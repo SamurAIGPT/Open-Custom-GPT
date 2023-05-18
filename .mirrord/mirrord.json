@@ -1,0 +1,12 @@
+
+{
+    "accept_invalid_certificates": false,
+    "feature": {
+        "network": {
+            "incoming": "mirror",
+            "outgoing": true
+        },
+        "fs": "read",
+        "env": true
+    }
+}
