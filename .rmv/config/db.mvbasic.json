@@ -1,0 +1,138 @@
+{
+    "version": "1.0",
+
+    // If you want to connet to a U2 server, you need configure the settings in "db" section. 
+    // If left these settings empty, you still can use most of the features. If so, 
+    // when try to connect to a U2 server, you need input these values in VS Code pop up input box.
+    // For more information, please refer https://rocketsoftware.github.io/rocket-mvbasic/usage/Connection
+    "db": {
+
+        // The host name or IP address of a U2 server. 
+        // For example, if U2 server is on your local machine, you can input "localhost" here.
+        // Or input an ip address or host name here if the U2 server is on a remote machine, 
+        // no matter the remote machine's OS is Windows, Linux or AIX.
+        // For example: "developer01.dev.sampleserver.com"
+        "host": "",
+
+        // The user name you used to login U2 server.
+        "userName": "",
+
+        // The password you used to login to U2 server. 
+        // Considered the password is sensitive, it's possible to leave this value empty.
+        // If so, when connect to U2 server, you need input the password in the VS Code pop 
+        // up input box.
+        "password": "",
+
+        // The U2 account you want to login. 
+        // For example, "XDEMO", "HS.SALES", "demo", etc.
+        "account": "",
+
+        // You can select "UNIVERSE" or "UNIDATA" for different U2 servers.
+        // If this value is changed, VS Code must be restarted for it to take effect.
+        "dataSource": "UNIVERSE",
+
+        // The extension uses unirpc to connect U2 server. 31438 is the default port
+        // of unirpc. If the port number is changed in U2 server, you need make sure
+        // the port number here the same to server side, so the connection could be
+        // established successfully.
+        "port": 31438
+    },
+
+    // You can add additional account folders here. 
+    // Doing this allows other features to reference the source code in these account folders.
+    // For example, settings of "catalog" or "includeMapping" can reference these accounts settings.
+    // For more details, please refer https://rocketsoftware.github.io/rocket-mvbasic/usage/Accounts/
+    "accounts": [
+        {
+            // Account name. For example, "XDEMO", "HS.SALES", "demo", etc.
+            "name": "",
+
+            // The full path of the account's folder on local machine.
+            // For example, "C:\\U2\\UV\\XDEMO", "/usr/username/u2/ud82/demo".
+            "path": ""
+        }
+    ], 
+
+    // This "catalog" section could help you to locate the cataloged program 
+    // source code. But this is not necessary if you don't care about the cataloged
+    // programs implementation. You also need connect to a U2 server to use this functionality.
+    "catalog": {
+
+        // When need find a cataloged program file (in feature "completion" or "go to definition"), 
+        // the extension also scans the files in the workspace. 
+        // If set this value to false, only files under the current opened subpath will be searched, 
+        // otherwise all files under current workspace will be scanned.
+        // Suggest set it to false to improve performance if the workspace contains too many files.
+        "isSearchAllDirs": false,
+
+        // When connected to a U2 server, the extension fetch catalog programs information periodically.
+        // By default the value is 5 (seconds), if you don't connect to a U2 server, please ignore this 
+        // setting. 
+        "readServerInterval": 5,
+
+        // Set the account and folder in which to search for catalog files. 
+        // You can add multiple items in this setting.
+        // This setting is not necessary if you don't care about the content of cataloged programs.
+        // You can find examples of this setting at https://rocketsoftware.github.io/rocket-mvbasic/usage/Catalog/
+        "programDirs": [
+            {
+                // Account name. Account name should be configured in "accounts" section.
+                // This setting could be removed if cataloged programs are not in other accounts.
+                "account": "",
+
+                // The name of source code directory which contains cataloged programs.
+                // When searching cataloged programs, this configured directory will be scanned.
+                "fileName": ""
+            }
+        ],
+
+        // Set the exact file mapping between cataloged program and its source code file.
+        // You can add multiple items in this setting.
+        // This setting is not necessary if you don't care about the content of cataloged programs.
+        // You can find examples of this setting at https://rocketsoftware.github.io/rocket-mvbasic/usage/Catalog/
+        "programMapping": [
+            {
+                // The cataloged program name.
+                "catalogName": "",
+
+                // Account name. Account name should be configured in "accounts" section.
+                // This setting could be removed if the source code of cataloged program
+                // is not in other account.
+                "account": "",
+
+                // The name of the directory which contains the source code of cataloged program.
+                // If the source code of the cataloged program is in another folder of current account, 
+                // you can set the directory name here, otherwise this setting could be removed.
+                "fileName": "",
+
+                // The source code file name of cataloged program.
+                "program": ""
+            }
+        ]
+    },
+
+    // When a BASIC program includes some other files by using the INCLUDE statement, 
+    // you can update this setting so that the included files could be referenced correctly.
+    // If you don't care about included files and its source code, you can remove this section.
+    // Please refer more details at https://rocketsoftware.github.io/rocket-mvbasic/usage/Include/
+    "includeMapping": [
+        {
+
+            // The mapped name of a folder in the INCLUDE statement.
+            // For example, "$INCLUDE UNIVERSE.INCLUDE HEADER", "UNIVERSE.INCLUDE" is a mapped name, 
+            // it's mapping to a folder somewhere on the disk, it's not a real folder name.
+            // If there is no mapping relationship, this setting could be removed.
+            "includeFile": "",
+
+            // Account name. Account name should be configured in "accounts" section.
+            // This setting could be removed if the included files are not in other accounts.
+            "account": "",
+
+            // The name of the folder which contains source code files.
+            // This is the real folder name on the disk.
+            // For example, "$INCLUDE UNIVERSE.INCLUDE HEADER", "UNIVERSE.INCLUDE" maps to folder
+            // "include", so the value for "fileName" should be "include".
+            "fileName": ""
+        }
+    ]
+}

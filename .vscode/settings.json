@@ -1,4 +1,11 @@
 {
     "totvsLanguageServer.welcomePage": false,
-    "gitlens.defaultDateFormat": ""
+    "gitlens.defaultDateFormat": "",
+    "[rocket-mvbasic]": {
+        "editor.codeLens": false
+    },
+    "files.exclude": {
+        "**/.rmv/catalog/**": true,
+        "*/_*": false
+    }
 }
