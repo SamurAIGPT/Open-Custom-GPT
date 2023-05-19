@@ -74,3 +74,310 @@ Account{name=ChatGPT-Developer-Plugins, path=C:/Users/marti/Documents/GitHub/Cha
 Account{name=memeapp, path=C:/Users/marti/Documents/GitHub/ChatGPT-Developer-Plugins/memeapp, type=PREDICT}
 2023-05-19 02:48:10.500 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.account.AccountManager - [client:40010105]load account manager finish
 2023-05-19 02:48:10.508 [pool-3-thread-1] INFO  com.rs.mv.mvvs.instance.userspace.UserspaceManager - [framework:30010402]config file(C:\Users\marti/.rmv/config) watcher launch successful
+2023-05-19 03:00:05.139 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/marti/Documents/GitHub/ChatGPT-Developer-Plugins/.mirrord)
+2023-05-19 03:00:05.184 [main] WARN  com.rs.mv.mvvs.Startup - [LSP:100104]ROCKET MV BASIC EXTENSION exited
+2023-05-19 03:03:17.515 [main] INFO  com.rs.mv.mvvs.Startup - [LSP:100101]ROCKET MV BASIC EXTENSION to start
+2023-05-19 03:03:17.646 [main] INFO  com.rs.mv.mvvs.lsp.server.BasicLanguageServerLauncher - [LSP:100102]start pip server
+2023-05-19 03:03:18.148 [main] INFO  com.rs.mv.mvvs.lsp.server.BasicLanguageServerLauncher - [LSP:100103]ROCKET MV BASIC EXTENSION start successful
+2023-05-19 03:03:33.603 [pool-3-thread-1] INFO  com.rs.mv.mvvs.instance.workspace.WorkspaceManager - [workspace:200101]load all workspace folders start
+2023-05-19 03:03:33.604 [pool-3-thread-1] INFO  com.rs.mv.mvvs.instance.workspace.WorkspaceManager - [workspace:20010201]root uri: file:///c%3A/Users/marti/Documents/GitHub/ChatGPT-Developer-Plugins
+2023-05-19 03:03:33.615 [pool-3-thread-1] INFO  com.rs.mv.mvvs.instance.workspace.handler.FolderHandler - [workspace:200103]workspace contains workspace folder: file:///c%3A/Users/marti/Documents/GitHub/ChatGPT-Developer-Plugins
+2023-05-19 03:03:33.736 [pool-3-thread-1] INFO  com.rs.mv.mvvs.instance.workspace.handler.FolderHandler - [workspace:200104]workspace folder will be cached: file:///c%3A/Users/marti/Documents/GitHub/ChatGPT-Developer-Plugins
+2023-05-19 03:03:33.741 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.config.Config - [framework:30010101]config load start
+2023-05-19 03:03:33.742 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.config.Config - [framework:30010102]project config path is : C:/Users/marti/Documents/GitHub/ChatGPT-Developer-Plugins/.rmv/config
+2023-05-19 03:03:33.743 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.config.Config - [framework:30010103]resource config path is : /
+2023-05-19 03:03:33.744 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.config.Config - [framework:30010104]user config path is : C:/Users/marti
+2023-05-19 03:03:33.802 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.config.Config - [framework:30010105]config load end
+2023-05-19 03:03:33.806 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.documentation.BasicDocumentation - [framework:30020101]documentation load start
+2023-05-19 03:03:33.809 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.documentation.reader.SystemDocReader - [framework:30020102]system documentation path: /documentation/UNIVERSE/
+2023-05-19 03:03:33.814 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.documentation.reader.ProjectDocReader - [framework:30020103]project documentation brief file: C:\Users\marti\Documents\GitHub\ChatGPT-Developer-Plugins\.rmv\documentation\UNIVERSE\custom.json
+2023-05-19 03:03:33.830 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.documentation.reader.UserDocReader - [framework:30020104]user documentation brief file: C:\Users\marti\documentation\UNIVERSE\custom.json
+2023-05-19 03:03:34.149 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.documentation.BasicDocumentation - [framework:30020105]documentation load end
+2023-05-19 03:03:34.157 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030101]convertors for folder(C:/Users/marti/Documents/GitHub/ChatGPT-Developer-Plugins) load start
+2023-05-19 03:03:34.252 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030102]comment convertor load finish
+2023-05-19 03:03:34.956 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030103]keyword convertor load finish
+2023-05-19 03:03:34.962 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030104]operator convertor load finish
+2023-05-19 03:03:34.964 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030105]function name convertor load finish
+2023-05-19 03:03:34.967 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030106]atVariable convertor load finish
+2023-05-19 03:03:34.967 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030107]convertors for folder(C:/Users/marti/Documents/GitHub/ChatGPT-Developer-Plugins) load end
+2023-05-19 03:03:34.991 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.config.CapabilityConfig - [framework:30010301]capabilities file(C:/Users/marti/Documents/GitHub/ChatGPT-Developer-Plugins/config/capability) doesn't exist or read error, default config will take effect
+2023-05-19 03:03:34.993 [pool-3-thread-1] INFO  com.rs.mv.mvvs.instance.workspace.WorkspaceManager - [workspace:200105]load all workspace folders successful
+2023-05-19 03:03:34.996 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.account.AccountManager - [client:40010101]load account manager start
+2023-05-19 03:03:35.102 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.account.handler.CacheAccountHandler - [client:40010102]load cache account: 
+2023-05-19 03:03:35.105 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.account.handler.ExternalAccountHandler - [client:40010103]load external account: 
+2023-05-19 03:03:35.483 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in ChatGPT-Developer-Plugins account
+2023-05-19 03:03:35.501 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2023-05-19 03:03:35.508 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2023-05-19 03:03:35.517 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a timed task to get global/local catalog, its period ChatGPT-Developer-Pluginss 
+2023-05-19 03:03:35.519 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in .git account
+2023-05-19 03:03:35.521 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2023-05-19 03:03:35.523 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2023-05-19 03:03:35.524 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a timed task to get global/local catalog, its period .gits 
+2023-05-19 03:03:35.526 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in logs account
+2023-05-19 03:03:35.527 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2023-05-19 03:03:35.528 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2023-05-19 03:03:35.529 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a timed task to get global/local catalog, its period logss 
+2023-05-19 03:03:35.531 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in refs account
+2023-05-19 03:03:35.531 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2023-05-19 03:03:35.532 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2023-05-19 03:03:35.534 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a timed task to get global/local catalog, its period refss 
+2023-05-19 03:03:35.535 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in remotes account
+2023-05-19 03:03:35.536 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2023-05-19 03:03:35.537 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2023-05-19 03:03:35.538 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a timed task to get global/local catalog, its period remotess 
+2023-05-19 03:03:35.539 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in objects account
+2023-05-19 03:03:35.540 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2023-05-19 03:03:35.541 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2023-05-19 03:03:35.542 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a timed task to get global/local catalog, its period objectss 
+2023-05-19 03:03:35.545 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in refs account
+2023-05-19 03:03:35.546 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2023-05-19 03:03:35.547 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2023-05-19 03:03:35.549 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a timed task to get global/local catalog, its period refss 
+2023-05-19 03:03:35.550 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in remotes account
+2023-05-19 03:03:35.552 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2023-05-19 03:03:35.553 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2023-05-19 03:03:35.554 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a timed task to get global/local catalog, its period remotess 
+2023-05-19 03:03:35.556 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in memeapp account
+2023-05-19 03:03:35.557 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2023-05-19 03:03:35.558 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2023-05-19 03:03:35.560 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a timed task to get global/local catalog, its period memeapps 
+2023-05-19 03:03:35.571 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.account.handler.ServerAccountHandler - [client:40010104]load server account: Account{name=.git, path=C:/Users/marti/Documents/GitHub/ChatGPT-Developer-Plugins/.git, type=PREDICT}
+Account{name=refs, path=C:/Users/marti/Documents/GitHub/ChatGPT-Developer-Plugins/.git/logs/refs, type=PREDICT}
+Account{name=logs, path=C:/Users/marti/Documents/GitHub/ChatGPT-Developer-Plugins/.git/logs, type=PREDICT}
+Account{name=remotes, path=C:/Users/marti/Documents/GitHub/ChatGPT-Developer-Plugins/.git/logs/refs/remotes, type=PREDICT}
+Account{name=remotes, path=C:/Users/marti/Documents/GitHub/ChatGPT-Developer-Plugins/.git/refs/remotes, type=PREDICT}
+Account{name=objects, path=C:/Users/marti/Documents/GitHub/ChatGPT-Developer-Plugins/.git/objects, type=PREDICT}
+Account{name=refs, path=C:/Users/marti/Documents/GitHub/ChatGPT-Developer-Plugins/.git/refs, type=PREDICT}
+Account{name=ChatGPT-Developer-Plugins, path=C:/Users/marti/Documents/GitHub/ChatGPT-Developer-Plugins, type=PREDICT}
+Account{name=memeapp, path=C:/Users/marti/Documents/GitHub/ChatGPT-Developer-Plugins/memeapp, type=PREDICT}
+2023-05-19 03:03:35.572 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.account.AccountManager - [client:40010105]load account manager finish
+2023-05-19 03:03:35.575 [pool-3-thread-1] INFO  com.rs.mv.mvvs.instance.userspace.UserspaceManager - [framework:30010402]config file(C:\Users\marti/.rmv/config) watcher launch successful
+2023-05-19 03:14:42.166 [main] WARN  com.rs.mv.mvvs.Startup - [LSP:100104]ROCKET MV BASIC EXTENSION exited
+2023-05-19 03:15:29.024 [main] INFO  com.rs.mv.mvvs.Startup - [LSP:100101]ROCKET MV BASIC EXTENSION to start
+2023-05-19 03:15:29.259 [main] INFO  com.rs.mv.mvvs.lsp.server.BasicLanguageServerLauncher - [LSP:100102]start pip server
+2023-05-19 03:15:29.749 [main] INFO  com.rs.mv.mvvs.lsp.server.BasicLanguageServerLauncher - [LSP:100103]ROCKET MV BASIC EXTENSION start successful
+2023-05-19 03:15:35.976 [pool-3-thread-1] INFO  com.rs.mv.mvvs.instance.workspace.WorkspaceManager - [workspace:200101]load all workspace folders start
+2023-05-19 03:15:35.977 [pool-3-thread-1] INFO  com.rs.mv.mvvs.instance.workspace.WorkspaceManager - [workspace:20010201]root uri: file:///c%3A/Users/marti/Documents/GitHub/ChatGPT-Developer-Plugins
+2023-05-19 03:15:36.078 [pool-3-thread-1] INFO  com.rs.mv.mvvs.instance.workspace.handler.FolderHandler - [workspace:200103]workspace contains workspace folder: file:///c%3A/Users/marti/Documents/GitHub/ChatGPT-Developer-Plugins
+2023-05-19 03:15:36.338 [pool-3-thread-1] INFO  com.rs.mv.mvvs.instance.workspace.handler.FolderHandler - [workspace:200104]workspace folder will be cached: file:///c%3A/Users/marti/Documents/GitHub/ChatGPT-Developer-Plugins
+2023-05-19 03:15:36.344 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.config.Config - [framework:30010101]config load start
+2023-05-19 03:15:36.345 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.config.Config - [framework:30010102]project config path is : C:/Users/marti/Documents/GitHub/ChatGPT-Developer-Plugins/.rmv/config
+2023-05-19 03:15:36.346 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.config.Config - [framework:30010103]resource config path is : /
+2023-05-19 03:15:36.347 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.config.Config - [framework:30010104]user config path is : C:/Users/marti
+2023-05-19 03:15:36.399 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.config.Config - [framework:30010105]config load end
+2023-05-19 03:15:36.421 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.documentation.BasicDocumentation - [framework:30020101]documentation load start
+2023-05-19 03:15:36.424 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.documentation.reader.SystemDocReader - [framework:30020102]system documentation path: /documentation/UNIVERSE/
+2023-05-19 03:15:36.431 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.documentation.reader.ProjectDocReader - [framework:30020103]project documentation brief file: C:\Users\marti\Documents\GitHub\ChatGPT-Developer-Plugins\.rmv\documentation\UNIVERSE\custom.json
+2023-05-19 03:15:36.440 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.documentation.reader.UserDocReader - [framework:30020104]user documentation brief file: C:\Users\marti\documentation\UNIVERSE\custom.json
+2023-05-19 03:15:36.668 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.documentation.BasicDocumentation - [framework:30020105]documentation load end
+2023-05-19 03:15:36.683 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030101]convertors for folder(C:/Users/marti/Documents/GitHub/ChatGPT-Developer-Plugins) load start
+2023-05-19 03:15:36.710 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030102]comment convertor load finish
+2023-05-19 03:15:37.616 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030103]keyword convertor load finish
+2023-05-19 03:15:37.628 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030104]operator convertor load finish
+2023-05-19 03:15:37.629 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030105]function name convertor load finish
+2023-05-19 03:15:37.631 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030106]atVariable convertor load finish
+2023-05-19 03:15:37.632 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030107]convertors for folder(C:/Users/marti/Documents/GitHub/ChatGPT-Developer-Plugins) load end
+2023-05-19 03:15:37.663 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.config.CapabilityConfig - [framework:30010301]capabilities file(C:/Users/marti/Documents/GitHub/ChatGPT-Developer-Plugins/config/capability) doesn't exist or read error, default config will take effect
+2023-05-19 03:15:37.664 [pool-3-thread-1] INFO  com.rs.mv.mvvs.instance.workspace.WorkspaceManager - [workspace:200105]load all workspace folders successful
+2023-05-19 03:15:37.724 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.account.AccountManager - [client:40010101]load account manager start
+2023-05-19 03:15:37.849 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.account.handler.CacheAccountHandler - [client:40010102]load cache account: 
+2023-05-19 03:15:37.854 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.account.handler.ExternalAccountHandler - [client:40010103]load external account: 
+2023-05-19 03:15:38.724 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in ChatGPT-Developer-Plugins account
+2023-05-19 03:15:38.762 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2023-05-19 03:15:38.765 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2023-05-19 03:15:38.797 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a timed task to get global/local catalog, its period ChatGPT-Developer-Pluginss 
+2023-05-19 03:15:38.797 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in .git account
+2023-05-19 03:15:38.798 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2023-05-19 03:15:38.798 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2023-05-19 03:15:38.799 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a timed task to get global/local catalog, its period .gits 
+2023-05-19 03:15:38.803 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in logs account
+2023-05-19 03:15:38.805 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2023-05-19 03:15:38.806 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2023-05-19 03:15:38.808 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a timed task to get global/local catalog, its period logss 
+2023-05-19 03:15:38.811 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in refs account
+2023-05-19 03:15:38.812 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2023-05-19 03:15:38.814 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2023-05-19 03:15:38.815 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a timed task to get global/local catalog, its period refss 
+2023-05-19 03:15:38.817 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in remotes account
+2023-05-19 03:15:38.820 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2023-05-19 03:15:38.844 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2023-05-19 03:15:38.849 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a timed task to get global/local catalog, its period remotess 
+2023-05-19 03:15:38.853 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in objects account
+2023-05-19 03:15:38.856 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2023-05-19 03:15:38.857 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2023-05-19 03:15:38.859 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a timed task to get global/local catalog, its period objectss 
+2023-05-19 03:15:38.861 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in refs account
+2023-05-19 03:15:38.863 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2023-05-19 03:15:38.864 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2023-05-19 03:15:38.865 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a timed task to get global/local catalog, its period refss 
+2023-05-19 03:15:38.868 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in remotes account
+2023-05-19 03:15:38.869 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2023-05-19 03:15:38.871 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2023-05-19 03:15:38.872 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a timed task to get global/local catalog, its period remotess 
+2023-05-19 03:15:38.875 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in memeapp account
+2023-05-19 03:15:38.876 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2023-05-19 03:15:38.877 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2023-05-19 03:15:38.878 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a timed task to get global/local catalog, its period memeapps 
+2023-05-19 03:15:38.903 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.account.handler.ServerAccountHandler - [client:40010104]load server account: Account{name=.git, path=C:/Users/marti/Documents/GitHub/ChatGPT-Developer-Plugins/.git, type=PREDICT}
+Account{name=refs, path=C:/Users/marti/Documents/GitHub/ChatGPT-Developer-Plugins/.git/logs/refs, type=PREDICT}
+Account{name=logs, path=C:/Users/marti/Documents/GitHub/ChatGPT-Developer-Plugins/.git/logs, type=PREDICT}
+Account{name=remotes, path=C:/Users/marti/Documents/GitHub/ChatGPT-Developer-Plugins/.git/logs/refs/remotes, type=PREDICT}
+Account{name=remotes, path=C:/Users/marti/Documents/GitHub/ChatGPT-Developer-Plugins/.git/refs/remotes, type=PREDICT}
+Account{name=objects, path=C:/Users/marti/Documents/GitHub/ChatGPT-Developer-Plugins/.git/objects, type=PREDICT}
+Account{name=refs, path=C:/Users/marti/Documents/GitHub/ChatGPT-Developer-Plugins/.git/refs, type=PREDICT}
+Account{name=ChatGPT-Developer-Plugins, path=C:/Users/marti/Documents/GitHub/ChatGPT-Developer-Plugins, type=PREDICT}
+Account{name=memeapp, path=C:/Users/marti/Documents/GitHub/ChatGPT-Developer-Plugins/memeapp, type=PREDICT}
+2023-05-19 03:15:38.904 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.account.AccountManager - [client:40010105]load account manager finish
+2023-05-19 03:15:38.907 [pool-3-thread-1] INFO  com.rs.mv.mvvs.instance.userspace.UserspaceManager - [framework:30010402]config file(C:\Users\marti/.rmv/config) watcher launch successful
+2023-05-19 03:18:53.077 [main] INFO  com.rs.mv.mvvs.Startup - [LSP:100101]ROCKET MV BASIC EXTENSION to start
+2023-05-19 03:18:53.139 [main] INFO  com.rs.mv.mvvs.lsp.server.BasicLanguageServerLauncher - [LSP:100102]start pip server
+2023-05-19 03:18:53.464 [main] INFO  com.rs.mv.mvvs.lsp.server.BasicLanguageServerLauncher - [LSP:100103]ROCKET MV BASIC EXTENSION start successful
+2023-05-19 03:18:53.655 [pool-3-thread-1] INFO  com.rs.mv.mvvs.instance.workspace.WorkspaceManager - [workspace:200101]load all workspace folders start
+2023-05-19 03:18:53.657 [pool-3-thread-1] INFO  com.rs.mv.mvvs.instance.workspace.WorkspaceManager - [workspace:20010201]root uri: file:///c%3A/Users/marti/Documents/GitHub/ChatGPT-Developer-Plugins
+2023-05-19 03:18:53.663 [pool-3-thread-1] INFO  com.rs.mv.mvvs.instance.workspace.handler.FolderHandler - [workspace:200103]workspace contains workspace folder: file:///c%3A/Users/marti/Documents/GitHub/ChatGPT-Developer-Plugins
+2023-05-19 03:18:53.708 [pool-3-thread-1] INFO  com.rs.mv.mvvs.instance.workspace.handler.FolderHandler - [workspace:200104]workspace folder will be cached: file:///c%3A/Users/marti/Documents/GitHub/ChatGPT-Developer-Plugins
+2023-05-19 03:18:53.712 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.config.Config - [framework:30010101]config load start
+2023-05-19 03:18:53.712 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.config.Config - [framework:30010102]project config path is : C:/Users/marti/Documents/GitHub/ChatGPT-Developer-Plugins/.rmv/config
+2023-05-19 03:18:53.713 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.config.Config - [framework:30010103]resource config path is : /
+2023-05-19 03:18:53.714 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.config.Config - [framework:30010104]user config path is : C:/Users/marti
+2023-05-19 03:18:53.735 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.config.Config - [framework:30010105]config load end
+2023-05-19 03:18:53.741 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.documentation.BasicDocumentation - [framework:30020101]documentation load start
+2023-05-19 03:18:53.742 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.documentation.reader.SystemDocReader - [framework:30020102]system documentation path: /documentation/UNIVERSE/
+2023-05-19 03:18:53.748 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.documentation.reader.ProjectDocReader - [framework:30020103]project documentation brief file: C:\Users\marti\Documents\GitHub\ChatGPT-Developer-Plugins\.rmv\documentation\UNIVERSE\custom.json
+2023-05-19 03:18:53.751 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.documentation.reader.UserDocReader - [framework:30020104]user documentation brief file: C:\Users\marti\documentation\UNIVERSE\custom.json
+2023-05-19 03:18:53.908 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.documentation.BasicDocumentation - [framework:30020105]documentation load end
+2023-05-19 03:18:53.917 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030101]convertors for folder(C:/Users/marti/Documents/GitHub/ChatGPT-Developer-Plugins) load start
+2023-05-19 03:18:53.927 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030102]comment convertor load finish
+2023-05-19 03:18:54.141 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030103]keyword convertor load finish
+2023-05-19 03:18:54.149 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030104]operator convertor load finish
+2023-05-19 03:18:54.150 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030105]function name convertor load finish
+2023-05-19 03:18:54.150 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030106]atVariable convertor load finish
+2023-05-19 03:18:54.151 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030107]convertors for folder(C:/Users/marti/Documents/GitHub/ChatGPT-Developer-Plugins) load end
+2023-05-19 03:18:54.155 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.config.CapabilityConfig - [framework:30010301]capabilities file(C:/Users/marti/Documents/GitHub/ChatGPT-Developer-Plugins/config/capability) doesn't exist or read error, default config will take effect
+2023-05-19 03:18:54.156 [pool-3-thread-1] INFO  com.rs.mv.mvvs.instance.workspace.WorkspaceManager - [workspace:200105]load all workspace folders successful
+2023-05-19 03:18:54.159 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.account.AccountManager - [client:40010101]load account manager start
+2023-05-19 03:18:54.176 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.account.handler.CacheAccountHandler - [client:40010102]load cache account: 
+2023-05-19 03:18:54.180 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.account.handler.ExternalAccountHandler - [client:40010103]load external account: 
+2023-05-19 03:18:54.288 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in ChatGPT-Developer-Plugins account
+2023-05-19 03:18:54.299 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2023-05-19 03:18:54.306 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2023-05-19 03:18:54.310 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a timed task to get global/local catalog, its period ChatGPT-Developer-Pluginss 
+2023-05-19 03:18:54.312 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in .git account
+2023-05-19 03:18:54.313 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2023-05-19 03:18:54.314 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2023-05-19 03:18:54.315 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a timed task to get global/local catalog, its period .gits 
+2023-05-19 03:18:54.316 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in logs account
+2023-05-19 03:18:54.317 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2023-05-19 03:18:54.318 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2023-05-19 03:18:54.320 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a timed task to get global/local catalog, its period logss 
+2023-05-19 03:18:54.322 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in refs account
+2023-05-19 03:18:54.323 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2023-05-19 03:18:54.324 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2023-05-19 03:18:54.324 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a timed task to get global/local catalog, its period refss 
+2023-05-19 03:18:54.327 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in remotes account
+2023-05-19 03:18:54.327 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2023-05-19 03:18:54.328 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2023-05-19 03:18:54.329 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a timed task to get global/local catalog, its period remotess 
+2023-05-19 03:18:54.330 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in objects account
+2023-05-19 03:18:54.331 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2023-05-19 03:18:54.333 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2023-05-19 03:18:54.334 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a timed task to get global/local catalog, its period objectss 
+2023-05-19 03:18:54.335 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in refs account
+2023-05-19 03:18:54.336 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2023-05-19 03:18:54.337 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2023-05-19 03:18:54.338 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a timed task to get global/local catalog, its period refss 
+2023-05-19 03:18:54.339 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in remotes account
+2023-05-19 03:18:54.340 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2023-05-19 03:18:54.341 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2023-05-19 03:18:54.342 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a timed task to get global/local catalog, its period remotess 
+2023-05-19 03:18:54.343 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in memeapp account
+2023-05-19 03:18:54.344 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2023-05-19 03:18:54.345 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2023-05-19 03:18:54.346 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a timed task to get global/local catalog, its period memeapps 
+2023-05-19 03:18:54.353 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.account.handler.ServerAccountHandler - [client:40010104]load server account: Account{name=.git, path=C:/Users/marti/Documents/GitHub/ChatGPT-Developer-Plugins/.git, type=PREDICT}
+Account{name=refs, path=C:/Users/marti/Documents/GitHub/ChatGPT-Developer-Plugins/.git/logs/refs, type=PREDICT}
+Account{name=logs, path=C:/Users/marti/Documents/GitHub/ChatGPT-Developer-Plugins/.git/logs, type=PREDICT}
+Account{name=remotes, path=C:/Users/marti/Documents/GitHub/ChatGPT-Developer-Plugins/.git/logs/refs/remotes, type=PREDICT}
+Account{name=remotes, path=C:/Users/marti/Documents/GitHub/ChatGPT-Developer-Plugins/.git/refs/remotes, type=PREDICT}
+Account{name=objects, path=C:/Users/marti/Documents/GitHub/ChatGPT-Developer-Plugins/.git/objects, type=PREDICT}
+Account{name=refs, path=C:/Users/marti/Documents/GitHub/ChatGPT-Developer-Plugins/.git/refs, type=PREDICT}
+Account{name=ChatGPT-Developer-Plugins, path=C:/Users/marti/Documents/GitHub/ChatGPT-Developer-Plugins, type=PREDICT}
+Account{name=memeapp, path=C:/Users/marti/Documents/GitHub/ChatGPT-Developer-Plugins/memeapp, type=PREDICT}
+2023-05-19 03:18:54.354 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.account.AccountManager - [client:40010105]load account manager finish
+2023-05-19 03:18:54.355 [pool-3-thread-1] INFO  com.rs.mv.mvvs.instance.userspace.UserspaceManager - [framework:30010402]config file(C:\Users\marti/.rmv/config) watcher launch successful
+2023-05-19 03:28:05.127 [main] INFO  com.rs.mv.mvvs.Startup - [LSP:100101]ROCKET MV BASIC EXTENSION to start
+2023-05-19 03:28:05.227 [main] INFO  com.rs.mv.mvvs.lsp.server.BasicLanguageServerLauncher - [LSP:100102]start pip server
+2023-05-19 03:28:05.514 [main] INFO  com.rs.mv.mvvs.lsp.server.BasicLanguageServerLauncher - [LSP:100103]ROCKET MV BASIC EXTENSION start successful
+2023-05-19 03:28:05.658 [pool-3-thread-1] INFO  com.rs.mv.mvvs.instance.workspace.WorkspaceManager - [workspace:200101]load all workspace folders start
+2023-05-19 03:28:05.660 [pool-3-thread-1] INFO  com.rs.mv.mvvs.instance.workspace.WorkspaceManager - [workspace:20010201]root uri: file:///c%3A/Users/marti/Documents/GitHub/ChatGPT-Developer-Plugins
+2023-05-19 03:28:05.668 [pool-3-thread-1] INFO  com.rs.mv.mvvs.instance.workspace.handler.FolderHandler - [workspace:200103]workspace contains workspace folder: file:///c%3A/Users/marti/Documents/GitHub/ChatGPT-Developer-Plugins
+2023-05-19 03:28:05.838 [pool-3-thread-1] INFO  com.rs.mv.mvvs.instance.workspace.handler.FolderHandler - [workspace:200104]workspace folder will be cached: file:///c%3A/Users/marti/Documents/GitHub/ChatGPT-Developer-Plugins
+2023-05-19 03:28:05.854 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.config.Config - [framework:30010101]config load start
+2023-05-19 03:28:05.855 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.config.Config - [framework:30010102]project config path is : C:/Users/marti/Documents/GitHub/ChatGPT-Developer-Plugins/.rmv/config
+2023-05-19 03:28:05.860 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.config.Config - [framework:30010103]resource config path is : /
+2023-05-19 03:28:05.861 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.config.Config - [framework:30010104]user config path is : C:/Users/marti
+2023-05-19 03:28:05.891 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.config.Config - [framework:30010105]config load end
+2023-05-19 03:28:05.895 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.documentation.BasicDocumentation - [framework:30020101]documentation load start
+2023-05-19 03:28:05.898 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.documentation.reader.SystemDocReader - [framework:30020102]system documentation path: /documentation/UNIVERSE/
+2023-05-19 03:28:05.906 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.documentation.reader.ProjectDocReader - [framework:30020103]project documentation brief file: C:\Users\marti\Documents\GitHub\ChatGPT-Developer-Plugins\.rmv\documentation\UNIVERSE\custom.json
+2023-05-19 03:28:05.915 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.documentation.reader.UserDocReader - [framework:30020104]user documentation brief file: C:\Users\marti\documentation\UNIVERSE\custom.json
+2023-05-19 03:28:06.091 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.documentation.BasicDocumentation - [framework:30020105]documentation load end
+2023-05-19 03:28:06.102 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030101]convertors for folder(C:/Users/marti/Documents/GitHub/ChatGPT-Developer-Plugins) load start
+2023-05-19 03:28:06.113 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030102]comment convertor load finish
+2023-05-19 03:28:06.667 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030103]keyword convertor load finish
+2023-05-19 03:28:06.672 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030104]operator convertor load finish
+2023-05-19 03:28:06.672 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030105]function name convertor load finish
+2023-05-19 03:28:06.673 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030106]atVariable convertor load finish
+2023-05-19 03:28:06.673 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030107]convertors for folder(C:/Users/marti/Documents/GitHub/ChatGPT-Developer-Plugins) load end
+2023-05-19 03:28:06.775 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.config.CapabilityConfig - [framework:30010301]capabilities file(C:/Users/marti/Documents/GitHub/ChatGPT-Developer-Plugins/config/capability) doesn't exist or read error, default config will take effect
+2023-05-19 03:28:06.776 [pool-3-thread-1] INFO  com.rs.mv.mvvs.instance.workspace.WorkspaceManager - [workspace:200105]load all workspace folders successful
+2023-05-19 03:28:06.783 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.account.AccountManager - [client:40010101]load account manager start
+2023-05-19 03:28:06.899 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.account.handler.CacheAccountHandler - [client:40010102]load cache account: 
+2023-05-19 03:28:06.905 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.account.handler.ExternalAccountHandler - [client:40010103]load external account: 
+2023-05-19 03:28:07.713 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in ChatGPT-Developer-Plugins account
+2023-05-19 03:28:07.738 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2023-05-19 03:28:07.741 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2023-05-19 03:28:07.751 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a timed task to get global/local catalog, its period ChatGPT-Developer-Pluginss 
+2023-05-19 03:28:07.752 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in .git account
+2023-05-19 03:28:07.752 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2023-05-19 03:28:07.753 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2023-05-19 03:28:07.753 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a timed task to get global/local catalog, its period .gits 
+2023-05-19 03:28:07.766 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in logs account
+2023-05-19 03:28:07.767 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2023-05-19 03:28:07.768 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2023-05-19 03:28:07.768 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a timed task to get global/local catalog, its period logss 
+2023-05-19 03:28:07.785 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in refs account
+2023-05-19 03:28:07.786 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2023-05-19 03:28:07.787 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2023-05-19 03:28:07.788 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a timed task to get global/local catalog, its period refss 
+2023-05-19 03:28:07.789 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in remotes account
+2023-05-19 03:28:07.790 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2023-05-19 03:28:07.790 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2023-05-19 03:28:07.791 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a timed task to get global/local catalog, its period remotess 
+2023-05-19 03:28:07.792 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in objects account
+2023-05-19 03:28:07.792 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2023-05-19 03:28:07.793 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2023-05-19 03:28:07.793 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a timed task to get global/local catalog, its period objectss 
+2023-05-19 03:28:07.794 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in refs account
+2023-05-19 03:28:07.795 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2023-05-19 03:28:07.795 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2023-05-19 03:28:07.796 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a timed task to get global/local catalog, its period refss 
+2023-05-19 03:28:07.797 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in remotes account
+2023-05-19 03:28:07.797 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2023-05-19 03:28:07.798 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2023-05-19 03:28:07.798 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a timed task to get global/local catalog, its period remotess 
+2023-05-19 03:28:07.799 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in memeapp account
+2023-05-19 03:28:07.800 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2023-05-19 03:28:07.801 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2023-05-19 03:28:07.801 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a timed task to get global/local catalog, its period memeapps 
+2023-05-19 03:28:07.819 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.account.handler.ServerAccountHandler - [client:40010104]load server account: Account{name=.git, path=C:/Users/marti/Documents/GitHub/ChatGPT-Developer-Plugins/.git, type=PREDICT}
+Account{name=refs, path=C:/Users/marti/Documents/GitHub/ChatGPT-Developer-Plugins/.git/logs/refs, type=PREDICT}
+Account{name=logs, path=C:/Users/marti/Documents/GitHub/ChatGPT-Developer-Plugins/.git/logs, type=PREDICT}
+Account{name=remotes, path=C:/Users/marti/Documents/GitHub/ChatGPT-Developer-Plugins/.git/logs/refs/remotes, type=PREDICT}
+Account{name=remotes, path=C:/Users/marti/Documents/GitHub/ChatGPT-Developer-Plugins/.git/refs/remotes, type=PREDICT}
+Account{name=objects, path=C:/Users/marti/Documents/GitHub/ChatGPT-Developer-Plugins/.git/objects, type=PREDICT}
+Account{name=refs, path=C:/Users/marti/Documents/GitHub/ChatGPT-Developer-Plugins/.git/refs, type=PREDICT}
+Account{name=ChatGPT-Developer-Plugins, path=C:/Users/marti/Documents/GitHub/ChatGPT-Developer-Plugins, type=PREDICT}
+Account{name=memeapp, path=C:/Users/marti/Documents/GitHub/ChatGPT-Developer-Plugins/memeapp, type=PREDICT}
+2023-05-19 03:28:07.820 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.account.AccountManager - [client:40010105]load account manager finish
+2023-05-19 03:28:07.822 [pool-3-thread-1] INFO  com.rs.mv.mvvs.instance.userspace.UserspaceManager - [framework:30010402]config file(C:\Users\marti/.rmv/config) watcher launch successful
