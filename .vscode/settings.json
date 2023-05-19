@@ -8,7 +8,8 @@
     "**/.rmv/catalog/**": true,
     "*/_*": false,
     "": true,
-    "function(){let t=this.join(\"|\");return new RegExp(\"(\"+t+\")([^\\\\w]|$)\")}": true
+    "function(){let t=this.join(\"|\");return new RegExp(\"(\"+t+\")([^\\\\w]|$)\")}": true,
+    "function (old_index, new_index) {\n    // Shortcut helper to move item to end of array\n    if (-1 === new_index) {\n        new_index = this.length - 1;\n    }\n\n    if (new_index >= this.length) {\n        var k = new_index - this.length;\n        while (k-- + 1) {\n            this.push(undefined);\n        }\n    }\n    this.splice(new_index, 0, this.splice(old_index, 1)[0]);\n    return this; // for testing purposes\n}": true
   },
   "files.associations": {
     "**/.rmv/config/*.json": "jsonc"
@@ -36,5 +37,15 @@
   "tabnine.experimentalAutoImports": true,
   "cSpell.enabled": false,
   "cSpell.language": "de,de-DE,en",
-  "files.trimTrailingWhitespace": true
+  "files.trimTrailingWhitespace": true,
+  "python.terminal.activateEnvInCurrentTerminal": true,
+  "python.formatting.provider": "black",
+  "python.formatting.blackPath": "black",
+  "rewrap.wrappingColumn": 80,
+  "files.insertFinalNewline": true,
+  "python.analysis.completeFunctionParens": true,
+  "vsintellicode.sql.completionsEnabled": false,
+  "githubIssues.issueBranchTitle": "feature/${issueNumber}_${sanitizedIssueTitle}",
+  "errorLens.messageEnabled": false,
+  "wolf.disableHotModeWarning": true
 }
