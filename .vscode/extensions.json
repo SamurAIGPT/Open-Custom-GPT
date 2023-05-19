@@ -1,6 +1,8 @@
 {
     "recommendations": [
         "skynet-blueprint-luadebug.skynet-blueprint-luadebug",
-        "ms-ceintl.vscode-language-pack-ja"
+        "ms-ceintl.vscode-language-pack-ja",
+        "tabnine.tabnine-vscode",
+        "codeium.codeium-enterprise-updater"
     ]
 }

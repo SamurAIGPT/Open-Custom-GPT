@@ -1,15 +1,18 @@
 {
-    "totvsLanguageServer.welcomePage": false,
-    "gitlens.defaultDateFormat": "",
-    "[rocket-mvbasic]": {
-        "editor.codeLens": false
-    },
-    "files.exclude": {
-        "**/.rmv/catalog/**": true,
-        "*/_*": false
-    },
-    "files.associations": {
-        "**/.rmv/config/*.json": "jsonc"
-    },
-    "cmake.sourceDirectory": "C:/Users/marti/Documents/GitHub/ChatGPT-Developer-Plugins"
+  "totvsLanguageServer.welcomePage": false,
+  "gitlens.defaultDateFormat": "",
+  "[rocket-mvbasic]": {
+    "editor.codeLens": false
+  },
+  "files.exclude": {
+    "**/.rmv/catalog/**": true,
+    "*/_*": false
+  },
+  "files.associations": {
+    "**/.rmv/config/*.json": "jsonc"
+  },
+  "cmake.sourceDirectory": "C:/Users/marti/Documents/GitHub/ChatGPT-Developer-Plugins",
+  "githubPullRequests.ignoredPullRequestBranches": [
+    "main"
+  ]
 }

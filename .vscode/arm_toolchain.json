@@ -1,0 +1,52 @@
+{
+  "build_select": "configuration_name",
+  "configurations": [
+    {
+      "name": "configuration_name",
+      "prj_name": "project_name",
+      "loader_path": "",
+      "c_include_paths": [
+        ""
+      ],
+      "a_include_paths": [
+        ""
+      ],
+      "c_source_paths": [
+        ""
+      ],
+      "general_flags": [
+        "mcpu=cortex-m0",
+        "specs=nosys.specs"
+      ],
+      "a_output_flags": [
+        "Wa,--warn"
+      ],
+      "c_output_flags": [
+        "Og",
+        "std=gnu11"
+      ],
+      "l_output_flags": [
+        "Wl,--defsym=malloc_getpagesize_P=0x1000"
+      ],
+      "a_defines": [
+        ""
+      ],
+      "c_defines": [
+        ""
+      ],
+      "l_library": [
+        ""
+      ],
+      "exclude_paths": [
+        ""
+      ],
+      "exclude_files": [
+        ""
+      ],
+      "toolchain_path": "",
+      "bin_gcc": "arm-none-eabi-gcc",
+      "bin_objcpy": "arm-none-eabi-objcopy",
+      "bin_size": "arm-none-eabi-size"
+    }
+  ]
+}
