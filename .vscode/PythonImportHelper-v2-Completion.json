@@ -1,0 +1,189 @@
+[
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "flask,",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "flask.",
+        "description": "flask.",
+        "detail": "flask.",
+        "documentation": {}
+    },
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "make_response",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "jsonify",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "ChatOpenAI",
+        "importPath": "langchain.chat_models",
+        "description": "langchain.chat_models",
+        "isExtraImport": true,
+        "detail": "langchain.chat_models",
+        "documentation": {}
+    },
+    {
+        "label": "load_tools",
+        "importPath": "langchain.agents",
+        "description": "langchain.agents",
+        "isExtraImport": true,
+        "detail": "langchain.agents",
+        "documentation": {}
+    },
+    {
+        "label": "initialize_agent",
+        "importPath": "langchain.agents",
+        "description": "langchain.agents",
+        "isExtraImport": true,
+        "detail": "langchain.agents",
+        "documentation": {}
+    },
+    {
+        "label": "AgentType",
+        "importPath": "langchain.agents",
+        "description": "langchain.agents",
+        "isExtraImport": true,
+        "detail": "langchain.agents",
+        "documentation": {}
+    },
+    {
+        "label": "AIPluginTool",
+        "importPath": "langchain.tools",
+        "description": "langchain.tools",
+        "isExtraImport": true,
+        "detail": "langchain.tools",
+        "documentation": {}
+    },
+    {
+        "label": "NLAToolkit",
+        "importPath": "langchain.agents.agent_toolkits",
+        "description": "langchain.agents.agent_toolkits",
+        "isExtraImport": true,
+        "detail": "langchain.agents.agent_toolkits",
+        "documentation": {}
+    },
+    {
+        "label": "ConversationBufferMemory",
+        "importPath": "langchain.memory",
+        "description": "langchain.memory",
+        "isExtraImport": true,
+        "detail": "langchain.memory",
+        "documentation": {}
+    },
+    {
+        "label": "get_memes",
+        "kind": 2,
+        "importPath": "memeapp.main",
+        "description": "memeapp.main",
+        "peekOfCode": "def get_memes():\n    response = requests.get(\"https://api.imgflip.com/get_memes\")\n    memes = response.json()['data']['memes']\n    output = jsonify(memes[:10])\n    return output, 200\n@app.get(\"/logo.png\")\ndef plugin_logo():\n    filename = 'logo.png'\n    return flask.send_file(filename, mimetype='image/png')\n@app.get(\"/.well-known/ai-plugin.json\")",
+        "detail": "memeapp.main",
+        "documentation": {}
+    },
+    {
+        "label": "plugin_logo",
+        "kind": 2,
+        "importPath": "memeapp.main",
+        "description": "memeapp.main",
+        "peekOfCode": "def plugin_logo():\n    filename = 'logo.png'\n    return flask.send_file(filename, mimetype='image/png')\n@app.get(\"/.well-known/ai-plugin.json\")\ndef plugin_manifest():\n    host = request.headers['Host']\n    with open(\"./.well-known/ai-plugin.json\") as f:\n        text = f.read()\n        response = make_response(text, 200)\n        response.mimetype = \"text/json\"",
+        "detail": "memeapp.main",
+        "documentation": {}
+    },
+    {
+        "label": "plugin_manifest",
+        "kind": 2,
+        "importPath": "memeapp.main",
+        "description": "memeapp.main",
+        "peekOfCode": "def plugin_manifest():\n    host = request.headers['Host']\n    with open(\"./.well-known/ai-plugin.json\") as f:\n        text = f.read()\n        response = make_response(text, 200)\n        response.mimetype = \"text/json\"\n        return response\n@app.get(\"/openapi.yaml\")\ndef openapi_spec():\n    host = request.headers['Host']",
+        "detail": "memeapp.main",
+        "documentation": {}
+    },
+    {
+        "label": "openapi_spec",
+        "kind": 2,
+        "importPath": "memeapp.main",
+        "description": "memeapp.main",
+        "peekOfCode": "def openapi_spec():\n    host = request.headers['Host']\n    with open(\"openapi.yaml\") as f:\n        text = f.read()\n        response = make_response(text, 200)\n        response.mimetype = \"text/plain\"\n        return response\ndef main():\n    app.run(debug=True, host=\"0.0.0.0\", port=5003)\nif __name__ == \"__main__\":",
+        "detail": "memeapp.main",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "memeapp.main",
+        "description": "memeapp.main",
+        "peekOfCode": "def main():\n    app.run(debug=True, host=\"0.0.0.0\", port=5003)\nif __name__ == \"__main__\":\n    main()",
+        "detail": "memeapp.main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "memeapp.main",
+        "description": "memeapp.main",
+        "peekOfCode": "app = Flask(__name__)\n@app.get(\"/get_memes\")\ndef get_memes():\n    response = requests.get(\"https://api.imgflip.com/get_memes\")\n    memes = response.json()['data']['memes']\n    output = jsonify(memes[:10])\n    return output, 200\n@app.get(\"/logo.png\")\ndef plugin_logo():\n    filename = 'logo.png'",
+        "detail": "memeapp.main",
+        "documentation": {}
+    },
+    {
+        "label": "llm",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "llm = ChatOpenAI(temperature=0)\ntools = NLAToolkit.from_llm_and_url(llm, \"https://0d86-103-227-97-4.ngrok-free.app/openapi.yaml\").get_tools()\nmemory=ConversationBufferMemory(memory_key=\"chat_history\", return_messages=True)\nagent_chain = initialize_agent(tools, llm, agent=\"chat-conversational-react-description\", verbose=True, memory=memory)\nprint(agent_chain.run(\"Show me some memes along with their corresponding url\"))",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "tools",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "tools = NLAToolkit.from_llm_and_url(llm, \"https://0d86-103-227-97-4.ngrok-free.app/openapi.yaml\").get_tools()\nmemory=ConversationBufferMemory(memory_key=\"chat_history\", return_messages=True)\nagent_chain = initialize_agent(tools, llm, agent=\"chat-conversational-react-description\", verbose=True, memory=memory)\nprint(agent_chain.run(\"Show me some memes along with their corresponding url\"))",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "agent_chain",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "agent_chain = initialize_agent(tools, llm, agent=\"chat-conversational-react-description\", verbose=True, memory=memory)\nprint(agent_chain.run(\"Show me some memes along with their corresponding url\"))",
+        "detail": "main",
+        "documentation": {}
+    }
+]
