@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.scroll{
+    scrollbar-width: none;
+}
+.scroll::-webkit-scrollbar {
+    width: 0;
+}

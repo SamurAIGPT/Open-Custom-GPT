@@ -1,27 +1,36 @@
-# ChatGPT-Developer-Plugins
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-You must have seen how popular ChatGPT plugins are ⚡️
+## Getting Started
 
-But we have a problem, ChatGPT plugins access and developer access is still very limited 🤯
+First, run the development server:
 
-ChatGPT-Developer-Plugins allows you to run existing ChatGPT plugins and test any plugins you develop for free 🚀.
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-### Getting Started
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Code is up, ⭐ (Star) the repo meanwhile to receive updates
+You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-memeapp folder has sample code for a plugin which gives data of memes
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-main.py has code to run the plugin using Langchain
+## Learn More
 
-Follow [Anil Chandra Naidu Matcha](https://twitter.com/matchaman11) & [Ankur Singh](https://twitter.com/ankur_maker) on twitter for updates
+To learn more about Next.js, take a look at the following resources:
 
-### Demo link
-https://thesamur.ai/
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-### How to develop a plugin ?
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-https://platform.openai.com/docs/plugins/introduction
+## Deploy on Vercel
 
-### Support
-Join our discord https://discord.gg/A6EzvsKX4u to get support
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
