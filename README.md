@@ -13,6 +13,13 @@
 https://github.com/SamurAIGPT/Open-Custom-GPT/assets/4326215/c41a7b62-f5c9-458c-be40-5ec6788b7726
 
 
+## Key Features 🎯
+
+- **Fast and Efficient**: Designed with speed and efficiency at its core. Open Custom GPT ensures rapid speed of building a GPT.
+- **Secure**: Your data, your control. Always. Self-hosted and never shared with others
+- **Open Source**: Open source and free to use.
+- **Share/Embed**: Share/Embed your project with your users directly and give access to your information
+- **Monetization**: Gate your Custom GPT behind a paywall and earn money
 
 ### Stack
 
@@ -34,3 +41,10 @@ npm run dev
 
 # visit http://localhost:3000
 ```
+
+## Contribute 🤝
+
+Did you get a pull request? Open it, and we'll review it as soon as possible.
+
+- [Open Issues](https://github.com/SamurAIGPT/Open-Custom-GPT/issues)
+- [Open Pull Requests](https://github.com/SamurAIGPT/Open-Custom-GPT/pulls)
