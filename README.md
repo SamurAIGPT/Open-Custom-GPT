@@ -8,6 +8,12 @@
 
 **Open Custom GPT** provides a user-friendly solution to quickly setup a custom GPT and add to your site.
 
+
+
+https://github.com/SamurAIGPT/Open-Custom-GPT/assets/4326215/c41a7b62-f5c9-458c-be40-5ec6788b7726
+
+
+
 ### Stack
 
 - Next.js
