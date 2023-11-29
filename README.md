@@ -49,6 +49,10 @@ Did you get a pull request? Open it, and we'll review it as soon as possible.
 - [Open Issues](https://github.com/SamurAIGPT/Open-Custom-GPT/issues)
 - [Open Pull Requests](https://github.com/SamurAIGPT/Open-Custom-GPT/pulls)
 
+## License 📄
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+
 ## Community
 
 Join the discord community https://discord.gg/3sbpBxVZyH to get support with setting up your Custom GPT
