@@ -21,6 +21,16 @@ https://github.com/SamurAIGPT/Open-Custom-GPT/assets/4326215/c41a7b62-f5c9-458c-
 - **Share/Embed**: Share/Embed your project with your users directly and give access to your information
 - **Monetization**: Gate your Custom GPT behind a paywall and earn money
 
+## Convert your existing Custom GPT to host on your site
+
+To convert your existing Custom GPT to host on your site, 
+
+- Copy the instructions from the Configure Tab
+- Paste them in the Open Custom GPT instructions section
+- Enable Code Interpreter, Dall E or File retrieval similar to your Custom GPT
+- Upload any files you added to Custom GPT
+- Setup any custom functions you added in your Custom GPT in Open Custom GPT
+
 ### Stack
 
 - Next.js
