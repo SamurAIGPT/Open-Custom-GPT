@@ -7,3 +7,15 @@
 .scroll::-webkit-scrollbar {
     width: 0;
 }
+.bounce {
+    animation: dot-pulse 0.9s ease both infinite;
+}
+@keyframes dot-pulse {
+    0% { transform: scale(0); }
+    50% { transform: scale(1); }
+    100% { transform: scale(0); }
+}
+  
+.bounce1 { animation-delay: 0; }
+.bounce2 { animation-delay: .3s; }
+.bounce3 { animation-delay: .6s; }
