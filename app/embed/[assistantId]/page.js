@@ -21,7 +21,8 @@ function Embed({ params: { assistantId } }) {
     chatRef.current = chat
  
     const refreshChat = () => {
-
+        setChat((prev)=>[])
+        setThread((prev)=>null)
     }
 
     const getAnswer = async(threadId,runId) => {
@@ -41,7 +42,10 @@ function Embed({ params: { assistantId } }) {
             setTimeout(()=>getAnswer(threadId,runId),200)
         }
     }
-    
+    const addKey = () => {
+        localStorage.setItem('openAIKey',key)
+        setKeyAdded((prev)=>true)
+    }
     const askAssistant = async() => {
         let getQuestion = question
         setQuestion("")
@@ -72,6 +76,14 @@ function Embed({ params: { assistantId } }) {
             setOpenai(new OpenAI({apiKey:key, dangerouslyAllowBrowser: true}))
         }
     },[keyAdded])
+    useEffect(()=>{
+        let getKey = localStorage.getItem('openAIKey')
+        if(getKey!=null&&getKey!=""){
+            setKey(getKey)
+            setKeyAdded((prev)=>true)
+        }
+    },[])
+
     return (
         <div className="h-screen w-screen md:p-4 flex flex-col bg-myBg gap-4">
             <div className={`flex justify-between bg-myPrimary rounded-xl p-4`}>
@@ -113,7 +125,7 @@ function Embed({ params: { assistantId } }) {
                         Welcome to myAssistant, enter your <a className="underline italic" href="https://platform.openai.com/api-keys" target="_blank">OpenAI key</a> to get started
                     </div>
                     <input  id="name" className="bg-gray-50 border border-gray-300 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 " placeholder="sk---------------" required value={key} onChange={(e)=>setKey(e.target.value)}/>
-                <button onClick={()=>key!==""&&setKeyAdded(true)} className="bg-mySecondary hover:bg-blue-400 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center">Add OpenAI Key</button>
+                <button onClick={()=>key!==""&&addKey()} className="bg-mySecondary hover:bg-blue-400 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center">Add OpenAI Key</button>
                 </div>}
             
         </div>
