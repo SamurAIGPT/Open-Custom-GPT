@@ -165,11 +165,11 @@ export default function Create({params:{assistantId}}) {
     <main className="flex min-h-screen flex-col  bg-myBg ">
         <div id="header" className="flex items-center justify-between flex-wrap gap-2 bg-slate-900 text-white px-2 md:px-8 py-4  ">
             <div className="flex items-center gap-2">
-              <Image src="assistant.svg" height={50} width={50} alt="logo"/>
-              <h6 className="  text-3xl font-semibold">myAssistant</h6>
+              <Image src="/assistant.svg" height={50} width={50} alt="logo"/>
+              <h6 className="  text-3xl font-semibold">Open Custom GPT</h6>
             </div>
             <Link href="/">
-              <Image src="home.svg" height={20} width={20} alt="home"/>
+              <Image src="/home.svg" height={20} width={20} alt="home"/>
             </Link>
         </div>
         {showShare==false?<div className=" max-w-3xl px-2 md:px-8 py-6 flex flex-col gap-5 text-gray-800">
@@ -221,11 +221,11 @@ export default function Create({params:{assistantId}}) {
           <div className="flex flex-wrap gap-2 justify-between w-full">
             <div className="flex flex-col gap-1">
               <div className="flex items-center gap-2 cursor-pointer" onClick={()=>setShowShare(false)}>
-                <Image src='back.svg' width={10} height={10} alt="share"/>
+                <Image src='/back.svg' width={10} height={10} alt="share"/>
                 <small className="">Back</small>
               </div>
               <div className="flex items-center gap-2">
-                <Image src='link.svg' width={20} height={20} alt="share"/>
+                <Image src='/link.svg' width={20} height={20} alt="share"/>
                 <h6 className="font-semibold text-xl">Share your assistant</h6>
               </div>
             </div>

@@ -52,6 +52,10 @@ npm run dev
 # visit http://localhost:3000
 ```
 
+### Hosted version of Open Custom GPT
+
+If you don't want to setup locally and wish to use a hosted version, you can start from https://customgpt.thesamur.ai/
+
 ## Contribute 🤝
 
 Did you get a pull request? Open it, and we'll review it as soon as possible.
