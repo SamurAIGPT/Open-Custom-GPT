@@ -47,6 +47,8 @@ Minimum requirements to run the projects locally
 ```shell
 npm install
 
+npm run build
+
 npm run dev
 
 # visit http://localhost:3000
