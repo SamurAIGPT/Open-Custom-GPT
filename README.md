@@ -58,6 +58,8 @@ npm run dev
 
 If you don't want to setup locally and wish to use a hosted version, you can start from https://customgpt.thesamur.ai/
 
+Streaming support now added in hosted version
+
 ## Contribute 🤝
 
 Did you get a pull request? Open it, and we'll review it as soon as possible.
