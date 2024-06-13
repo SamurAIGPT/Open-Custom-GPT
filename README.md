@@ -10,7 +10,7 @@
 
 
 
-https://github.com/SamurAIGPT/Open-Custom-GPT/assets/4326215/c41a7b62-f5c9-458c-be40-5ec6788b7726
+### Youtube Tutorial -> https://www.youtube.com/watch?v=2S38vkMubrg
 
 
 ## Key Features 🎯
