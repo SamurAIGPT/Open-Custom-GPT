@@ -3,6 +3,7 @@ import Image from "next/image";
 import { useState,useEffect,useRef } from "react";
 import OpenAI from 'openai';
 import { useSearchParams } from 'next/navigation'
+import ReactMarkdown from 'react-markdown'
 
 function Embed({ params: { assistantId } }) {
     const [question,setQuestion] = useState("")
@@ -103,7 +104,7 @@ function Embed({ params: { assistantId } }) {
                     
                     {chat.map((msg, index)=>
                     <div key={index} className={`${msg.isBot?'bg-gray-900 text-gray-100 self-start':'text-gray-900 bg-gray-100 self-end border-2'} rounded-lg  px-3 py-2 max-w-sm`}>
-                        {msg.msg}
+                        {msg.isBot ? <ReactMarkdown className="prose prose-invert prose-sm max-w-none">{msg.msg}</ReactMarkdown> : msg.msg}
                     </div>)}
                     {loading&&<div  className={`bg-gray-900 text-gray-100 self-start rounded-lg  px-3 py-2 max-w-sm`}>
                         <div className="flex h-4 items-center gap-2">
