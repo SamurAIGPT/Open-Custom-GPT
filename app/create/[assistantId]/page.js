@@ -127,9 +127,9 @@ export default function Create({params:{assistantId}}) {
   }
   const shareEmbed = (type) => {
     if(type==0){
-      navigator.clipboard.writeText('<iframe src="'+window.location.host+'/embed/'+assistant+'" />')
+      navigator.clipboard.writeText('<iframe src="'+window.location.origin+'/embed/'+assistant+'" />')
     }else{
-      navigator.clipboard.writeText(window.location.host+'/embed/'+assistant)
+      navigator.clipboard.writeText(window.location.origin+'/embed/'+assistant)
     }
   }
 
